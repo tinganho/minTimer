@@ -1,0 +1,12 @@
+{
+  "name": "minTimer",
+  "version": "0.1.0",
+  "main": "minTimer.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
