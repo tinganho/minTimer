@@ -21,7 +21,9 @@ $.ajax({
 
 ##Error timeout
 You can also set error timeout:
+```javascript
 minTimer.start(2000, 4000, function() {
   // Handle error timeout
 });
+```
 The second parameter above is the timeout error. The time it takes to issue an timeout error. The third parameter is a handler handling the timeout error.
