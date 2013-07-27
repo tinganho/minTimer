@@ -4,7 +4,7 @@ minTimer
 minTimer is a minimum timer for a specified callback
 ##Install
 ```shell
-bower install minTimer
+bower install minTimer --save
 ```
 
 ##Usage
