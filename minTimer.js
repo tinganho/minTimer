@@ -3,7 +3,7 @@ var minTimer = (function() {
     t           : 0,
     minDuration : null,
     interval    : null,
-    hasEnded    : false
+    hasEnded    : false,
 
     start : function(minDuration, errorTimeout, error) {
       var _this        = this;
