@@ -2,8 +2,12 @@ minTimer
 ========
 
 minTimer is a minimum timer for a specified callback
+##Install
+```shell
+bower install minTimer
+```
 
-#Usage
+##Usage
 
 ```javascript
 minTimer.start(2000) //defaults to 1000ms
@@ -19,7 +23,7 @@ $.ajax({
 });
 ```
 
-##Error timeout
+###Error timeout
 You can also set error timeout:
 ```javascript
 minTimer.start(2000, 4000, function() {
