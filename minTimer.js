@@ -23,6 +23,7 @@ var minTimer = (function() {
     },
 
     end : function(cb) {
+      var _this = this;
       if(this.t > this.minDuration) {
         if(typeof cb === 'function') {
           _this.hasEnded = true;
